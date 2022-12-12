@@ -11,7 +11,7 @@ export const ContactForm = () => {
     }
     return (<form>
         <div>
-            <label htmlFor="name">Name</label>
+            <label className={'text-red-100'} htmlFor="name">Name</label>
             <input id="name" type="text" name="name" placeholder="Name"
                    onChange={(e) => setName(e.target.value)}/>
         </div>
